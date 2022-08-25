@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"
+          name="C:/Users/dinnu/Testing/BooksWagonMobileAutomationTesting/src/test/java/com/bookswagon/Test_Login_Page.java">
+        <classes>
+            <class name="com.bookswagon.Test_Login_Page">
+                <methods>
+                    <include name="loginIntoApplication_WithValid_Credentials"/>
+                    <include name="search_For_Book"/>
+                    <include name="check_BookDetails"/>
+                    <include name="addBook_To_Cart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
